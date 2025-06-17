@@ -131,6 +131,17 @@ const Listing = ({
               ></div>
             ))}
       </div>
+      <div className="text-center mt-8 text-gray-500">
+        Made with ❤️ by{" "}
+        <a
+          href="https://github.com/Sadiya-125"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary font-bold"
+        >
+          Sadiya
+        </a>
+      </div>
     </div>
   );
 };
