@@ -58,8 +58,8 @@ const GoogleMapSection = ({ listing, coordinates, boundingBox }) => {
         container.innerHTML = `
         <div class="relative">
           <img src="${item.primary_photo}" alt="${
-          item.address
-        }" class="w-full h-[120px] object-cover rounded-t-lg" />
+            item.address
+          }" class="w-full h-[120px] object-cover rounded-t-lg" />
           <button class="absolute top-2 right-2 bg-white/80 hover:bg-white text-black rounded-full p-1 shadow-sm z-10" onclick="this.closest('.maplibregl-popup').remove()">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
